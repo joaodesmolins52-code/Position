@@ -1,0 +1,469 @@
+
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body
+{
+    font-family: "Roboto", sans-serif;
+
+}
+
+.nav 
+{
+    display: inline-block;
+    width: 4.5%;
+}
+
+header 
+{
+    padding: 10px 0;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    background-color: white;
+}
+
+
+header>ul
+{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.drop
+{
+    position: relative;
+}
+.drop>ul
+{
+    position: absolute;
+    width: 150%;
+    height: 15vh;
+    padding-top: 5vh;
+    z-index: -10;
+    background-color: white;
+    opacity: 0;
+}
+
+.drop>ul>li
+{
+    height: 5vh;
+}
+
+.drop:hover>ul
+{
+    opacity: 1;
+    z-index: 9999;
+}
+.view-menu-fixo
+{
+    font-size: 13px;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    top: 40%;
+    height: 180px;
+    line-height: 180px;
+    width: 92px;
+    background-image: url(Imagens/view-menu-bg.png);
+    z-index: 9999;
+    text-transform: uppercase;
+    
+}
+
+
+.book-a-table-fixo 
+{
+    text-transform: uppercase;
+    font-size: 13px;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 0;
+    top: 40%;
+    height: 180px;
+    line-height: 180px;
+    width: 92px;
+    background-image: url(Imagens/book-table-bg.png);
+    z-index: 9999;
+}
+
+.letras>h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 40;
+}
+
+.book-a-table-fixo :hover 
+{
+    color: #000000;   
+}
+
+.book-a-table-fixo > a
+{
+    color: white;
+    transform: rotate(-90deg);
+    transition: 0.4s;
+}
+
+.gira_Book 
+{
+    display: inline-block;
+    transition: all 0.4s ease 0s;;
+    transform: rotate(90deg);
+}
+
+.book-a-table-fixo :hover 
+{
+    color: #000000;
+    transform: rotate(0deg);
+}
+
+.gira 
+{
+    display: inline-block;
+    transition: 0.4s;
+    transform: rotate(90deg);
+}
+
+
+.gira:hover 
+{
+    color: #ad9966;
+    transform: rotate(0deg);
+}
+
+
+a:hover{
+    color: #ad9966;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link
+{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.nav-logo
+{
+     width: 20%;
+     display: inline-block;
+     vertical-align: middle
+}
+
+
+
+.nav-link:hover
+{
+    color: #ad9966;
+    
+}
+
+.nav-logo img
+{
+    width: 66.81px;
+    height: 79.38px;
+}
+
+#sec1
+{
+    height: 78vh;
+    background-image: url(Imagens/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.formatacao-home-menu
+{
+    font-weight: 600;
+    font-family: 'Linearicons-Free';
+    font-size: 18px;
+    text-align: center;
+}
+
+.seta-menu
+{
+   font-size: 30px;
+   text-align: center;
+}
+
+
+#roof
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+#linha
+{
+    height: 0;  
+    width: 450px;
+}
+
+
+p
+{
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-family: "Playfair Display", serif ;
+    letter-spacing: 10.8;
+}
+
+.cardapio-container
+{
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.cardapio
+{
+    font-size: 15px;
+    color: black;
+    position: relative;
+    left: 50%;
+    top: -300px;
+    font-family:  "Playfair Display", serif;
+    font-weight: 100;
+    font-style: italic;
+    background-color: #faf5f0;
+    background-size: auto;
+    width: 635px;
+    height: 1175.5px;
+}
+
+
+
+.letras
+{
+   position: relative;
+   left: 21%;  
+   top: 253px;
+   margin-left: -100px;
+   margin-right: -100px;
+   
+}
+
+
+.letras > p
+{
+    font-size: 15px;
+    color: black;   
+}
+
+
+.espaço
+{
+    
+    font-size: 15px;
+    position: relative;
+    padding-bottom: 5%;
+    padding-top: -25px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+    color: #000;
+    text-align: center;
+    display: block;
+    width: 300px;
+}
+.div>.espaço
+{
+    text-size-adjust: contain;
+}
+
+.aspas
+{
+    color: rgb(119, 119, 119);
+    line-height: 25.5px;
+}
+
+.Appetizer 
+{
+    padding-top: 30px;
+    font-size: 21px;
+    position: relative;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: #000;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.full-menu
+{
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    right: 350px;
+    width: 197.04px;
+    height: 49.48px;
+    background-color: #ad9966;
+    color: white;
+}
+.full-menu:hover
+{
+    background-color: white;
+    border-color: #ad9966;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    border: solid;
+}
+
+.footer
+{
+    height: 530.01vh;
+    width: 937.05px;
+    align-items: center;
+    padding: 30px 20px;
+    background-color:#071032;
+    display: inline-block;
+}
+
+.area-do-chefe
+{
+    display: inline-block;
+}
+
+.chefe
+{
+    position: relative;
+    margin-top: 50px;
+}
+
+.Chef’s-Quotes
+{
+    display: inline-block;
+    color: #000000;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    height: 370.01px;
+    width: 143px;
+    position: relative;
+    top: -800px;
+    left: -650px;
+    right: 0px;
+}
+
+.Chef’s-Quotes>h1
+{
+    font-size: 35px;
+    color: #000000;
+    letter-spacing: normal;
+}
+
+.Chef’s-Quotes>p
+{
+    font-size: 15px;
+    color: #777777;
+}
+.footer
+{
+    top: 100%;
+    background-color: #04091e;
+    padding: 60px 0;
+    display: inline-block;
+}
+
+.footer>li :hover
+{
+    color: #ad9966;
+}
+
+.footer>h1
+{
+     color: #ffffff;
+}
+
+.fonte-titulo
+{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.fonte-texto
+{
+    color: #777777;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    transition: all 0.4s ease 0s;
+}
+
+
+.footer
+{
+    top: 100%;
+    background-color: #04091e;
+    padding: 60px 0;
+    display: inline-block;
+}
+
+.footer>li :hover
+{
+    color: #ad9966;
+}
+
+.footer>h1
+{
+     color: #ffffff;
+}
+
+.fonte-titulo
+{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.fonte-texto
+{
+    color: #777777;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    transition: all 0.4s ease 0s;
+}
+

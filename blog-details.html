@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <ul class="menu">
+            <li class="nav"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav"><a href="menu.html" class="nav-link">menu</a></li>
+            <li class="nav"><a href="about.html" class="nav-link">about</a></li>
+            <li class="nav-logo"><a href="index.html" class="nav-link"><img src="Imagens/logo.position.png" alt=""></a>
+            </li>
+            <li class="nav drop"><a href="pages.html" class="nav-link">pages▾<p></p></a></li>
+            <li class="nav drop"><a href="blog.html" class="nav-link">Blog▾</a></li>
+            <li class="nav"><a href="gallery.html" class="nav-link">Gallery</a></li>
+        </ul>
+    </header>
+
+    <div class="view-menu-fixo">
+        <a href="http://127.0.0.1:5501/" class="gira">view menu</a>
+    </div>
+
+    <div class="book-a-table-fixo">
+        <a href="http://127.0.0.1:5501/" class="gira_Book">book a table</a>
+    </div>
+
+    <div class=""></div>
+
+    <section id="sec1">
+
+        <div id="roof">
+            <p>R O O F T O P</p>
+            <br>
+            <hr id="linha">
+            <br class="br">
+            <span> A FINE DINNING RESTAURANT </span>
+        </div>
+
+    </section>
+
+    <section class="uma-do-lado-da-outra">
+        <div class="letras">
+            <h1>
+                DAILY FOOD<br>
+                COURSES<br>
+                WITH DRINKS <br>
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>
+                sed do eiusmod tempor incididunt ut labore et dolore <br>
+                magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo <br>
+                consequat.
+            </p>
+
+            <a href="full-menu"> SEE FULL MENU</a>
+        </div>
+        <div class="cardapio cardapio-container">
+            <p class="Appetizer">Appetizer </p>
+
+            <p class="espaço">Ham & Potato Sandwiches ........... $25.00 <br></p>
+
+            <p class="espaço">(French bread baguette, cooked ham, potato salad) <br></p>
+
+            <p class="espaço"> Ham & Potato Sandwiches ........... $25.00 <br></p>
+
+            <p class="espaço aspas"> (French bread baguette, cooked ham, potato salad) <br></p>
+
+            <p class="Appetizer">Main Courses <br></p>
+
+            <p class="espaço">Ham & Potato Sandwiches .......... $25.00 <br></p>
+
+            <p class="espaço aspas">(French bread baguette, cooked ham, potato salad) <br></p>
+
+            <p class="espaço">Ham & Potato Sandwiches ........... $25.00 <br></p>
+
+            <p class="espaço aspas">(French bread baguette, cooked ham, potato salad) <br></p>
+
+            <p class="Appetizer"> Drinks & Juices <br></p>
+
+            <p class="espaço"> Ham & Potato Sandwiches ........... $25.00 <br></p>
+
+            <p class="espaço aspas">(French bread baguette, cooked ham, potato salad) <br></p>
+
+            <p class="espaço">Ham & Potato Sandwiches ........... $25.00 <br></p>
+
+            <p class="espaço aspas">(French bread baguette, cooked ham, potato salad)</p>
+
+
+        </div>
+    </section>
+
+    <section class="galeria">
+
+        <div class="imagens">
+
+            <div class="sushi-img"><img src="Imagens/sushi na mesa.png" alt="" class="sushi"></div>
+
+            <div class="massa-img"><img src="Imagens/massa.png" alt="" class="massa"></div>
+
+            <div class="biscoito-img"><img src="Imagens/biscoito chique.png" alt="" class="biscoito"></div>
+
+            <div class="peixe-img"><img src="Imagens/peixe chique.png" alt="" class = "peixe"></div>
+
+        </div>
+    </section>
+    <section id="sec3">
+        <div class="inline-block">
+            <div id="altura">
+                <form action="">
+
+                    <div class="naoQuadradinhos">
+                        <input type="text" name="nomeEvento" placeholder="Event Name">
+                    </div>
+
+                    <div class="quadradinhos">
+                        <input type="date" name="dataEvento" placeholder="Event Date">
+                        <input type="time" name="horarioEvento" placeholder="Event Time" class="direita">
+                        <input type="number" name="numeroConvidados" placeholder="Number of guests">
+                        <input type="number" name="orcamento" placeholder="Budget" class="direita">
+                    </div>
+
+                    <div class="naoQuadradinhos">
+                        <input type="text" name="nomeContato" placeholder="Contact Name" class="inputMedio">
+                        <input type="email" name="email" placeholder="Email Adress" class="inputMedio">
+                        <input type="tel" name="telefone" placeholder="Phone Number" class="inputMedio">
+                        <textarea name="mensagem" placeholder="Post a message" class="txtArea"></textarea>
+                    </div>
+                    <button>SEND REQUEST</button>
+
+                </form>
+            </div>
+
+            <div class="Book-a-Rooms">
+                <h1>
+                    Book a <br>
+                    Table or <br>
+                    Rooms for <br>
+                    private <br>
+                    dining <br>
+                </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>
+                    sed do eiusmod tempor incididunt ut labore et dolore <br>
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo <br>
+                    consequat.
+                </p>
+                <img src="Imagens/chefs-quotes.jpg" alt="" class="chefe">
+
+                <div class="Chef’s-Quotes">
+                    <h1>
+                        Chef’s <br>
+                        Quotes <br>
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>
+                        sed do eiusmod tempor incididunt ut labore et dolore <br>
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo <br>
+                        consequat.
+                    </p>
+                    <img src="Imagens/assinatura.png" alt="">
+                </div>
+            </div>
+
+            <section class="sec4">
+
+                <div class="Rooftop-Fine-Dinning">
+                    <div>
+                        <h1 class="titulo-fine-Dinning">
+                            Rooftop <br>
+                            Fine Dinning <br>
+                            Restaurant <br>
+                        </h1>
+
+                    </div>
+                    <div class="endereco-fine-Dinning">
+                        <p class=" espaço cor-p">432 Wyandotte Ave, Lakewood, OH, 44107 <br> </p>
+
+                        <p class=" espaço cor-p"> 432 Wyandotte Ave, Lakewood, OH, 44107,<br> </p>
+                    </div>
+
+                    <div class="telefone-fine-Dinning">
+                        <p class=" espaço cor-p"> 012 44 (216) 785-9346 <br> </p>
+
+                        <p class=" espaço cor-p"> 012 44 (216) 785-9346 <br> </p>
+
+                        <p class=" espaço cor-p"> 012 44 (216) 785-9346 <br> </p>
+                    </div>
+
+                    <div class="info-fine-Dinning">
+                        <p class=" espaço cor-p"> info@rooftoprestaurant.co.uk<br> </p>
+
+                        <p class=" espaço cor-p"> support@rooftoprestaurant.com <br> </p>
+
+                    </div>
+
+                </div>
+            </section>
+            <footer class="footer">
+                <div>
+                    <ul>
+                        <h1 class="fonte-titulo">Top Products</h1>
+                    </ul>
+                    <ul>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Managed Website</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Manage Reputation</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Power Tools</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Marketing Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="fonte-titulo">Quick links</h1>
+                    <ul>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Jobs</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Brand Assets</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Investor Relations</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="fonte-titulo">Features</h1>
+                    <ul>
+                        <li class="fonte-texto"> <a class="fonte-texto" href="http://127.0.0.1:5501/">Jobs</a></li>
+                        <li class="fonte-texto"> <a class="fonte-texto" href="http://127.0.0.1:5501/">Brand Assets</a>
+                        </li>
+                        <li class="fonte-texto"> <a class="fonte-texto" href="http://127.0.0.1:5501/">Investor
+                                Relations</a></li>
+                        <li class="fonte-texto"> <a class="fonte-texto" href="http://127.0.0.1:5501/">Terms of
+                                Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="fonte-titulo">Resources</h1>
+                    <ul>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Guides</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Research</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Experts</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Agencies</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="fonte-titulo">Newsletter</h1>
+                    <ul">
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Stay update with our latest</a>
+                            <input type="email" name="email" placeholder="Email Adress" class="inputMedio">
+                        </li>
+                        </ul>
+
+                </div>
+            </footer>
+        </div>
+</body>
+
+</html>
+
+</html>

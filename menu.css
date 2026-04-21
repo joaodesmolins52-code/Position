@@ -1,0 +1,636 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body
+{
+    font-family: "Roboto", sans-serif;
+
+}
+
+.nav 
+{
+    display: inline-block;
+    width: 4.5%;
+}
+
+header 
+{
+    padding: 10px 0;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    background-color: white;
+}
+
+
+header>ul
+{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.drop
+{
+    position: relative;
+}
+.drop>ul
+{
+    position: absolute;
+    width: 150%;
+    height: 15vh;
+    padding-top: 5vh;
+    z-index: -10;
+    background-color: white;
+    opacity: 0;
+}
+
+.drop>ul>li
+{
+    height: 5vh;
+}
+
+.drop:hover>ul
+{
+    opacity: 1;
+    z-index: 9999;
+}
+.view-menu-fixo
+{
+    font-size: 13px;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    top: 40%;
+    height: 180px;
+    line-height: 180px;
+    width: 92px;
+    background-image: url(Imagens/view-menu-bg.png);
+    z-index: 9999;
+    text-transform: uppercase;
+    
+}
+
+
+.book-a-table-fixo 
+{
+    text-transform: uppercase;
+    font-size: 13px;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 0;
+    top: 40%;
+    height: 180px;
+    line-height: 180px;
+    width: 92px;
+    background-image: url(Imagens/book-table-bg.png);
+    z-index: 9999;
+}
+
+.letras>h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 40;
+}
+
+.book-a-table-fixo :hover 
+{
+    color: #000000;   
+}
+
+.book-a-table-fixo > a
+{
+    color: white;
+    transform: rotate(-90deg);
+    transition: 0.4s;
+}
+
+.gira_Book 
+{
+    display: inline-block;
+    transition: all 0.4s ease 0s;;
+    transform: rotate(90deg);
+}
+
+.book-a-table-fixo :hover 
+{
+    color: #000000;
+    transform: rotate(0deg);
+}
+
+.gira 
+{
+    display: inline-block;
+    transition: 0.4s;
+    transform: rotate(90deg);
+}
+
+
+.gira:hover 
+{
+    color: #ad9966;
+    transform: rotate(0deg);
+}
+
+
+a:hover{
+    color: #ad9966;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link
+{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.nav-logo
+{
+     width: 20%;
+     display: inline-block;
+     vertical-align: middle
+}
+
+
+
+.nav-link:hover
+{
+    color: #ad9966;
+    
+}
+
+.nav-logo img
+{
+    width: 66.81px;
+    height: 79.38px;
+}
+
+#sec1 
+{
+    height: 78vh;
+    background-image: url(Imagens/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+#roof
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+#linha
+{
+    height: 0;  
+    width: 450px;
+}
+
+
+p
+{
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    line-height: 1.5em;
+    font-weight: 10;
+    font-family: "Playfair Display", serif ;
+    letter-spacing: 10.8;
+}
+
+.cardapio-container
+{
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.cardapio
+{
+    font-size: 15px;
+    color: black;
+    position: relative;
+    left: 50%;
+    top: -300px;
+    font-family:  "Playfair Display", serif;
+    font-weight: 100;
+    font-style: italic;
+    background-color: #faf5f0;
+    background-size: auto;
+    width: 635px;
+    height: 1175.5px;
+}
+
+
+
+.letras
+{
+   position: relative;
+   left: 21%;  
+   top: 253px;
+   margin-left: -100px;
+   margin-right: -100px;
+   
+}
+
+
+.letras > p
+{
+    font-size: 15px;
+    color: black;   
+}
+
+
+.espaço
+{
+    
+    font-size: 15px;
+    position: relative;
+    padding-bottom: 5%;
+    padding-top: -25px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+    color: #000;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.div>.espaço
+{
+    text-size-adjust: contain;
+}
+
+.aspas
+{
+    color: rgb(119, 119, 119);
+    line-height: 25.5px;
+}
+
+.Appetizer 
+{
+    padding-top: 30px;
+    font-size: 21px;
+    position: relative;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: #000;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.imagens>.sushi
+{
+    position: absolute;
+    position: relative;
+    top: -360px;
+    left: 235px;
+    right: 800px;
+    line-height: 25.5px;
+    width: 450.012px;
+    height: 648.657px;
+    
+}
+/* <___________________________________________________________________________________> */
+.galeria 
+{
+    height: 150vh;
+}
+
+.sushi-img
+{   
+    display: inline-block;
+    position: relative;
+    top: -350px;
+    left: 130px;
+    width: 640px;
+    height: 880px;
+}
+
+.sushi:hover{
+    filter: brightness(-50%);
+    transition: 0.5s;
+}
+.sushi-img:hover img
+ {
+    transform: scale(1.3);
+    filter: brightness(30%);
+}
+
+.massa-img
+ {
+    display: inline-block;
+    position: relative;
+    height: 659px;
+    width: 545px;
+    top: -100px;
+    left: 70px;
+    overflow: hidden;
+}
+
+.massa-img:hover  img
+{
+    transition: 0.5s;
+    transform: scale(1.1);
+    filter: brightness(30%);
+}
+.biscoito-img
+{
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    height: 560px;
+    width: 508px;
+    top: -530px;
+    right: -230px;
+    transition: 0.5s;
+}
+.biscoito:hover img
+{
+    transition: 0.5s;
+    transform: scale(1.1);
+    filter: brightness(30%);
+}
+.peixe-img
+{
+    position: relative;
+    width: 576px;
+    height: 683px;
+    left: 200px;
+    top: -250px;
+    overflow: hidden;
+    display: inline-block;
+    transition: 0.5s;
+}
+.peixe:hover
+{
+    transition: 0.5s;
+    transform: scale(1.1);
+    filter: brightness(30%);
+}
+/* <-----------------------------------------------------------------------------------> */
+
+.full-menu
+{
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    right: 350px;
+    width: 197.04px;
+    height: 49.48px;
+    background-color: #ad9966;
+    color: white;
+}
+.full-menu:hover
+{
+    background-color: white;
+    border-color: #ad9966;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    border: solid;
+}
+
+
+#sec3 form
+{
+    display: inline-block;
+    width:  40%;
+    position: relative;
+    height: 700px;
+    top: 420px;
+    left: 190px;
+    align-items: center;
+    background-color: #faf5f0;
+    padding-top: 7%;
+    padding-right: 3%;
+    padding-left: 3%;
+} 
+
+#sec3 button
+{
+    color:#ffffff;
+    background-color: #000000;
+}
+
+#sec3 button:hover
+{
+    color: #ad9966;
+    background-color: #ffffff;
+    border-color: white;
+    transition: 0.4s;
+}
+
+.Book-a-Rooms
+{
+    display: inline-block;
+    color: #000000;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: -250px;
+    left: 800px;
+}
+
+.Book-a-Rooms>p
+{
+    font-size: 15px;
+    color: #777777;
+
+}
+
+.chefe
+{
+    position: relative;
+    margin-top: 50px;
+    top: -425px;
+    left: 170px;
+    right: 0px;
+}
+
+
+.Chef’s-Quotes
+{
+    display: inline-block;
+    color: #000000;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    height: 370.01px;
+    width: 143px;
+    position: relative;
+    left: 290px;
+    top: -600px;    
+}
+
+.Chef’s-Quotes>h1
+{
+    font-size: 35px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #000000;
+    letter-spacing: normal;
+    font-family: "Playfair Display", serif;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+.Chef’s-Quotes>p
+{
+    font-size: 15px;
+    color: #777777;
+}
+
+#sec4
+{
+    position: relative;
+    top: -400px;
+}
+
+
+.footer
+{
+    text-decoration: none;
+    width: 100%;
+    align-items: center;
+    padding: 30px 20px;
+    background-color:#071032;
+
+}
+
+
+.footer div
+{
+    
+    display: inline-block;
+}
+
+.footer>li :hover
+{
+    color: #ad9966;
+}
+
+.footer>h1
+{
+     color: #ffffff;
+}
+
+.fonte-titulo
+{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.fonte-texto
+{
+    color: #777777;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    transition: all 0.4s ease 0s;
+}
+
+.Colorlib
+{
+    color: #ad9966;
+    color: #777777;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+
+.Copyright
+{
+    color: #777777;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.Copyright-container
+{
+    display: inline-block;
+}
+
+.Newsletter
+{
+    position: relative;
+    left: 100px;
+    top: -77px;
+}
+
+.bife-container 
+{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.bife-main 
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.bife-overlay 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 90%;
+}
+
+
+.bife-overlay>h2 
+{
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.bife-overlay>p 
+{
+    font-size: 15px;
+    color: #777777;
+    margin-bottom: 10px;
+    text-align: center;
+}

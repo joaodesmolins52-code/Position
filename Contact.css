@@ -1,0 +1,395 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body
+{
+    font-family: "Roboto", sans-serif;
+
+}
+
+.nav 
+{
+    display: inline-block;
+    width: 4.5%;
+}
+
+header 
+{
+    padding: 10px 0;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    background-color: white;
+}
+
+
+header>ul
+{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.drop
+{
+    position: relative;
+}
+.drop>ul
+{
+    position: absolute;
+    width: 150%;
+    height: 15vh;
+    padding-top: 5vh;
+    z-index: -10;
+    background-color: white;
+    opacity: 0;
+}
+
+.drop>ul>li
+{
+    height: 5vh;
+}
+
+.drop:hover>ul
+{
+    opacity: 1;
+    z-index: 9999;
+}
+.view-menu-fixo
+{
+    font-size: 13px;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    top: 40%;
+    height: 180px;
+    line-height: 180px;
+    width: 92px;
+    background-image: url(Imagens/view-menu-bg.png);
+    z-index: 9999;
+    text-transform: uppercase;
+    
+}
+
+
+.book-a-table-fixo 
+{
+    text-transform: uppercase;
+    font-size: 13px;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 0;
+    top: 40%;
+    height: 180px;
+    line-height: 180px;
+    width: 92px;
+    background-image: url(Imagens/book-table-bg.png);
+    z-index: 9999;
+}
+
+
+.book-a-table-fixo :hover 
+{
+    color: #000000;   
+}
+
+.book-a-table-fixo > a
+{
+    color: white;
+    transform: rotate(-90deg);
+    transition: 0.4s;
+}
+
+.gira_Book 
+{
+    display: inline-block;
+    transition: all 0.4s ease 0s;;
+    transform: rotate(90deg);
+}
+
+.book-a-table-fixo :hover 
+{
+    color: #000000;
+    transform: rotate(0deg);
+}
+
+.gira 
+{
+    display: inline-block;
+    transition: 0.4s;
+    transform: rotate(90deg);
+}
+
+
+.gira:hover 
+{
+    color: #ad9966;
+    transform: rotate(0deg);
+}
+
+
+a:hover{
+    color: #ad9966;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link
+{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.nav-logo
+{
+     width: 20%;
+     display: inline-block;
+     vertical-align: middle
+}
+
+
+
+.nav-link:hover
+{
+    color: #ad9966;
+    
+}
+
+.nav-logo img
+{
+    width: 66.81px;
+    height: 79.38px;
+}
+
+#sec1 
+{
+    height: 78vh;
+    background-image: url(Imagens/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+#roof
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+#linha
+{
+    height: 0;  
+    width: 450px;
+}
+
+
+
+#roof p {
+    color: white;
+    font-size: 72px;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 10.8px;
+}
+
+
+p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+}
+
+#sec4
+{
+    position: relative;
+    top: -400px;
+}
+
+
+
+.footer
+{
+    text-decoration: none;
+    width: 100%;
+    align-items: center;
+    padding: 30px 20px;
+    background-color:#071032;
+
+}
+
+
+.footer div
+{
+    
+    display: inline-block;
+}
+
+.footer>li :hover
+{
+    color: #ad9966;
+}
+
+.footer>h1
+{
+     color: #ffffff;
+}
+
+.fonte-titulo
+{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.fonte-texto
+{
+    color: #777777;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    transition: all 0.4s ease 0s;
+}
+
+.Colorlib
+{
+    color: #ad9966;
+    color: #777777;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+
+.Copyright
+{
+    color: #777777;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.Copyright-container
+{
+    display: inline-block;
+}
+
+.Newsletter
+{
+    position: relative;
+    left: 100px;
+    top: -77px;
+}
+
+.uma-do-lado-da-outra {
+    padding: 120px 0;
+}
+
+.uma-do-lado-da-outra .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.letras {
+    width: 40%;
+}
+
+.cardapio {
+    width: 50%;
+    background-color: #faf5f0;
+    padding: 40px;
+}
+
+
+#sec3 {
+    padding: 120px 0;
+}
+
+#sec3 .container {
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+}
+
+
+
+#sec3 button
+{
+    color:#ffffff;
+    background-color: #000000;
+}
+
+#sec3 button:hover
+{
+    color: #ad9966;
+    background-color: #ffffff;
+    border-color: white;
+    transition: 0.4s;
+}
+
+#sec3 form {
+    width: 50%;
+    background-color: #faf5f0;
+    padding: 50px;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.formatacao-home-menu
+{
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    transition: 0.4s;
+    color: white;
+}
+
+.seta-menu
+{
+    position: relative;
+    top: 5px;
+    font-size: 38px;
+}
+
+.letras-container {
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+}

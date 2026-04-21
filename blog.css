@@ -1,0 +1,399 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body
+{
+    font-family: "Roboto", sans-serif;
+
+}
+
+.nav 
+{
+    display: inline-block;
+    width: auto;
+}
+
+header 
+{
+    padding: 10px 0;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    background-color: white;
+}
+
+
+header>ul
+{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+
+header ul li {
+    display: inline-block;
+    margin: 0 15px;
+    vertical-align: middle;
+}
+
+
+.Caixinhas-brancas-1 {
+        width: 10%;
+        height: 10vh;
+        position: absolute;
+        top: 30%;
+        right: 35%;
+        background-color: #f9f9f9;
+        z-index: 50;
+        text-align: left;
+        text-decoration: none;
+        transition: 0.5s;
+        padding: 1%;
+        opacity: 0;
+}
+.Caixinhas-brancas-1:hover {
+        opacity: 100%;
+}
+.Caixinhas-brancas-1 li {
+        list-style-type: none;
+}
+.Caixinhas-brancas-1a {
+        color: black;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: small;
+        font-weight: bolder;
+}
+.Caixinhas-brancas-1 a:hover {
+        color: goldenrod;
+}
+.Caixinhas-brancas-2{
+        width: 10%;
+        height: 10vh;
+        position: absolute;
+        right: 25%;
+        top: 40%;
+        background-color: #f9f9f9;
+        z-index: 50;
+        text-align: left;
+        text-decoration: none;
+        transition: 0.5s;
+        padding: 1%;
+        opacity: 0;
+}
+.Caixinhas-brancas-2:hover {
+        opacity: 100%;
+}
+.Caixinhas-brancas-2 a {
+        color: black;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: small;
+        font-weight: bolder;
+}
+.Caixinhas-brancas-2a:hover {
+        color: goldenrod;
+}
+.Caixinhas-brancas-2 li {
+        list-style-type: none;
+}
+
+.Pra-baixo::after
+{
+    content: " ▾";
+    display: inline-block;
+}
+
+
+.view-menu-fixo
+{
+    font-size: 13px;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    top: 40%;
+    height: 180px;
+    line-height: 180px;
+    width: 92px;
+    background-image: url(Imagens/view-menu-bg.png);
+    z-index: 9999;
+    text-transform: uppercase;
+    
+}
+
+
+.book-a-table-fixo 
+{
+    text-transform: uppercase;
+    font-size: 13px;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 0;
+    top: 40%;
+    height: 180px;
+    line-height: 180px;
+    width: 92px;
+    background-image: url(Imagens/book-table-bg.png);
+    z-index: 9999;
+}
+
+
+.book-a-table-fixo :hover 
+{
+    color: #000000;   
+}
+
+.book-a-table-fixo > a
+{
+    color: white;
+    transform: rotate(-90deg);
+    transition: 0.4s;
+}
+
+.gira_Book 
+{
+    display: inline-block;
+    transition: all 0.4s ease 0s;;
+    transform: rotate(90deg);
+}
+
+.book-a-table-fixo :hover 
+{
+    color: #000000;
+    transform: rotate(0deg);
+}
+
+.gira 
+{
+    display: inline-block;
+    transition: 0.4s;
+    transform: rotate(90deg);
+}
+
+
+.gira:hover 
+{
+    color: #ad9966;
+    transform: rotate(0deg);
+}
+
+
+a:hover{
+    color: #ad9966;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link
+{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.nav-logo
+{
+     width: 20%;
+     display: inline-block;
+     vertical-align: middle
+}
+
+
+
+.nav-link:hover
+{
+    color: #ad9966;
+    
+}
+
+.nav-logo img
+{
+    width: 66.81px;
+    height: 79.38px;
+}
+
+#sec1 
+{
+    height: 78vh;
+    background-image: url(Imagens/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#roof
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+#linha
+{
+    height: 0;  
+    width: 450px;
+}
+
+
+
+#roof p {
+    color: white;
+    font-size: 72px;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 10.8px;
+}
+
+
+p 
+{
+    font-size: 15px;
+    line-height: 1.7;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+}
+
+/* <-----------------------------------------------------------------------------------> */
+
+#sec2 {
+    width: 100%;
+    padding: 120px 0;
+}
+
+.Container-sec2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card-blog {
+    width: 33.333%;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-blog img {
+    width: 100%;
+    display: block;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.card-blog:hover img {
+    transform: scale(1.1);
+    filter: brightness(60%);
+}
+
+.Overlay-sec2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    text-align: center;
+    opacity: 0;
+    z-index: 2;
+    transition: opacity 0.4s ease;
+}
+
+.card-blog:hover .Overlay-sec2 {
+    opacity: 1;
+}
+
+/* <-----------------------------------------------------------------------------------> */
+.footer
+{
+    text-decoration: none;
+    width: 100%;
+    align-items: center;
+    padding: 30px 20px;
+    background-color:#071032;
+
+}
+
+
+.footer div
+{
+    
+    display: inline-block;
+}
+
+.footer>li :hover
+{
+    color: #ad9966;
+}
+
+.footer>h1
+{
+     color: #ffffff;
+}
+
+.fonte-titulo
+{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.fonte-texto
+{
+    color: #777777;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    transition: all 0.4s ease 0s;
+}
+
+.Colorlib
+{
+    color: #ad9966;
+    color: #777777;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.Copyright
+{
+    color: #777777;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-top: 10px;
+    position: relative;
+    left: 40px;
+}
+
+.Copyright-container
+{
+    display: inline-block;
+}

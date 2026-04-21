@@ -1,0 +1,1777 @@
+html:<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+<title>position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <ul class="menu">
+            <li class="nav"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav"><a href="#" class="nav-link">menu</a></li>
+            <li class="nav"><a href="#" class="nav-link">about</a></li>
+            <li class="nav-logo"><a href="" class="nav-link"><img src="Imagens/logo.position.png" alt=""></a></li>
+            <li class="nav drop"><a href="#" class="nav-link">pages▾<p></p></a></li>
+            <li class="nav drop"><a href="#" class="nav-link">Blog▾</a></li>
+            <li class="nav"><a href="#" class="nav-link">Gallery</a></li>
+        </ul>
+    </header>
+
+    <div class="view-menu-fixo"> 
+        <a href="http://127.0.0.1:5501/" class="gira">view menu</a>
+    </div>
+
+    <div class="book-a-table-fixo"> 
+        <a href="http://127.0.0.1:5501/" class="gira_Book">book a table</a>
+    </div>
+
+    <div class=""></div>
+
+    <section id="sec1">
+
+        <div id="roof">
+            <p>R O O F T O P</p>
+            <br>
+            <hr id="linha">
+            <br class="br">
+            <span> A FINE DINNING RESTAURANT </span>
+        </div>
+
+    </section>
+
+    <section class="uma-do-lado-da-outra">
+    <div class="letras">
+        <h1>
+            DAILY  FOOD<br>
+            COURSES<br>
+            WITH DRINKS <br>
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>
+           sed do eiusmod tempor incididunt ut labore et dolore <br>
+           magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
+           exercitation ullamco laboris nisi ut aliquip ex ea commodo <br>
+           consequat.
+        </p>
+
+        <a href="full-menu"> SEE FULL MENU</a>
+    </div>
+    <div class="cardapio cardapio-container">
+            <p class="Appetizer">Appetizer </p>
+
+            <p class="espaço">Ham & Potato Sandwiches ........... $25.00 <br></p>
+
+            <p class="espaço">(French bread baguette, cooked ham, potato salad) <br></p>
+            
+            <p class="espaço"> Ham & Potato Sandwiches ........... $25.00 <br></p>
+            
+            <p class="espaço aspas"> (French bread baguette, cooked ham, potato salad) <br></p>
+
+            <p class="Appetizer">Main Courses <br></p>
+
+            <p class="espaço">Ham & Potato Sandwiches .......... $25.00 <br></p>
+
+            <p class="espaço aspas">(French bread baguette, cooked ham, potato salad) <br></p>
+            
+            <p class="espaço">Ham & Potato Sandwiches ........... $25.00 <br></p>
+            
+            <p class="espaço aspas">(French bread baguette, cooked ham, potato salad) <br></p>
+            
+            <p class="Appetizer"> Drinks & Juices <br></p>
+           
+            <p class="espaço"> Ham & Potato Sandwiches ........... $25.00 <br></p>
+           
+            <p class="espaço aspas">(French bread baguette, cooked ham, potato salad) <br></p>
+            
+            <p class="espaço">Ham & Potato Sandwiches ........... $25.00 <br></p>
+            
+            <p class="espaço aspas">(French bread baguette, cooked ham, potato salad)</p>
+            
+    
+    </div>
+    </section>
+
+    <section class="galeria">
+        
+    <div class="imagens">
+
+    <div class="suhi-img"><img src="Imagens/sushi na mesa.png" alt="" class="sushi"></div>
+
+     <div class="massa-img"><img src="Imagens/massa.png" alt="" class="massa"></div>
+
+    <div class="biscoito-img"><img src="Imagens/biscoito chique.png" alt="" class="biscoito"></div>
+
+    <div class="peixe-img"><img src="Imagens/peixe chique.png" alt=""class="prato-de-sushi"></div>
+
+    </div>
+    </section>
+<section id="sec3">
+    <div class="inline-block">
+        <div id="altura">
+           <form action="">
+
+            <div class="naoQuadradinhos">
+                <input type="text" name="nomeEvento" placeholder="Event Name">
+            </div>
+
+            <div class="quadradinhos">
+                <input type="date" name="dataEvento" placeholder="Event Date">
+                <input type="time" name="horarioEvento" placeholder="Event Time" class="direita">
+                <input type="number" name="numeroConvidados" placeholder="Number of guests">
+                <input type="number" name="orcamento" placeholder="Budget" class="direita">
+            </div>
+
+            <div class="naoQuadradinhos">
+                <input type="text" name="nomeContato" placeholder="Contact Name" class="inputMedio">
+                <input type="email" name="email" placeholder="Email Adress" class="inputMedio">
+                <input type="tel" name="telefone" placeholder="Phone Number" class="inputMedio">
+                <textarea name="mensagem" placeholder="Post a message" class="txtArea"></textarea>
+            </div>
+            <button>SEND REQUEST</button>
+
+        </form>
+        </div>
+
+          <div class="Book-a-Rooms">
+        <h1>
+          Book a <br>
+          Table or <br>
+          Rooms for <br>
+          private <br>
+          dining <br>
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>
+           sed do eiusmod tempor incididunt ut labore et dolore <br>
+           magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
+           exercitation ullamco laboris nisi ut aliquip ex ea commodo <br>
+           consequat.
+        </p>
+        <img src="Imagens/chefs-quotes.jpg" alt="" class="chefe">
+
+           <div class="Chef’s-Quotes">
+        <h1>
+            Chef’s <br>
+            Quotes <br>
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>
+           sed do eiusmod tempor incididunt ut labore et dolore <br>
+           magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
+           exercitation ullamco laboris nisi ut aliquip ex ea commodo <br>
+           consequat.
+        </p>
+        <img src="Imagens/assinatura.png" alt="">
+    </div>
+    </div>
+   
+  <section class="sec4">
+    
+    <div class="Rooftop-Fine-Dinning">
+        <div>
+        <h1 class="titulo-fine-Dinning">
+          Rooftop <br>
+          Fine Dinning <br>
+          Restaurant <br>
+        </h1>
+
+        </div>
+        <div class="endereco-fine-Dinning"> 
+        <p class=" espaço cor-p">432 Wyandotte Ave, Lakewood, OH, 44107 <br> </p>
+
+        <p class=" espaço cor-p">   432 Wyandotte Ave, Lakewood, OH, 44107,<br> </p>
+        </div>
+
+        <div class="telefone-fine-Dinning">
+          <p class=" espaço cor-p"> 012 44 (216) 785-9346 <br> </p>
+
+          <p class=" espaço cor-p"> 012 44 (216) 785-9346 <br> </p>
+
+          <p class=" espaço cor-p"> 012 44 (216) 785-9346 <br> </p>
+        </div>
+
+        <div class="info-fine-Dinning">
+          <p class=" espaço cor-p"> info@rooftoprestaurant.co.uk<br> </p>
+
+          <p class=" espaço cor-p"> support@rooftoprestaurant.com <br> </p>
+
+        </div>
+
+    </div>
+</section>
+    
+    <footer class="footer">
+        <div>
+       <ul>
+        <li class="Appetizer">Top Products</li>
+       </ul>
+       <ul>
+        <li><a href="http://127.0.0.1:5501/">Managed Website</a></li>
+        <li><a href="http://127.0.0.1:5501/">Manage Reputation</a></li>
+        <li><a href="http://127.0.0.1:5501/">Power Tools</a></li>
+        <li><a href="http://127.0.0.1:5501/">Marketing Service</a></li>
+       </ul>    
+        </div>
+        <div>
+            <ul>
+                <li class="Appetizer">Quick links</li>
+                <li><a href="http://127.0.0.1:5501/">Jobs</a></li>
+                <li><a href="http://127.0.0.1:5501/">Brand Assets</a></li>
+                <li><a href="http://127.0.0.1:5501/">Investor Relations</a></li>
+                <li><a href="http://127.0.0.1:5501/">Terms of Service</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="Appetizer">Features</li>
+                <li> <a href="http://127.0.0.1:5501/">Jobs</a></li>
+                <li> <a href="http://127.0.0.1:5501/">Brand Assets</a></li>
+                <li> <a href="http://127.0.0.1:5501/">Investor Relations</a></li>
+                <li> <a href="http://127.0.0.1:5501/">Terms of Service</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="http://127.0.0.1:5501/ " class="Appetizer">Resources</a></li>
+                <li><a href="http://127.0.0.1:5501/">Guides</a></li>
+                <li><a href="http://127.0.0.1:5501/">Research</a></li>
+                <li><a href="http://127.0.0.1:5501/">Experts</a></li>
+                <li><a href="http://127.0.0.1:5501/">Agencies</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="http://127.0.0.1:5501/" class="Appetizer">Newsletter</a></li>
+                <li><a href="http://127.0.0.1:5501/">Stay update with our latest</a></li>
+            </ul>
+
+        </div>
+    </footer>
+</div>
+    </section>
+</body>
+
+</html>
+</html>
+
+Css:
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body
+{
+    font-family: "Roboto", sans-serif;
+
+}
+
+.nav 
+{
+    display: inline-block;
+    width: 4.5%;
+}
+
+header 
+{
+    padding: 10px 0;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    background-color: white;
+}
+
+
+header>ul
+{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.drop
+{
+    position: relative;
+}
+.drop>ul
+{
+    position: absolute;
+    width: 150%;
+    height: 15vh;
+    padding-top: 5vh;
+    z-index: -10;
+    background-color: white;
+    opacity: 0;
+}
+
+.drop>ul>li
+{
+    height: 5vh;
+}
+
+.drop:hover>ul
+{
+    opacity: 1;
+    z-index: 9999;
+}
+.view-menu-fixo
+{
+    font-size: 13px;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    top: 40%;
+    height: 180px;
+    line-height: 180px;
+    width: 92px;
+    background-image: url(Imagens/view-menu-bg.png);
+    z-index: 9999;
+    text-transform: uppercase;
+    
+}
+
+
+.book-a-table-fixo 
+{
+    text-transform: uppercase;
+    font-size: 13px;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 0;
+    top: 40%;
+    height: 180px;
+    line-height: 180px;
+    width: 92px;
+    background-image: url(Imagens/book-table-bg.png);
+    z-index: 9999;
+}
+
+.letras>h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 40;
+}
+
+.book-a-table-fixo :hover 
+{
+    color: #000000;   
+}
+
+.book-a-table-fixo > a
+{
+    color: white;
+    transform: rotate(-90deg);
+    transition: 0.4s;
+}
+
+.gira_Book 
+{
+    display: inline-block;
+    transition: all 0.4s ease 0s;;
+    transform: rotate(90deg);
+}
+
+.book-a-table-fixo :hover 
+{
+    color: #000000;
+    transform: rotate(0deg);
+}
+
+.gira 
+{
+    display: inline-block;
+    transition: 0.4s;
+    transform: rotate(90deg);
+}
+
+
+.gira:hover 
+{
+    color: #ad9966;
+    transform: rotate(0deg);
+}
+
+
+a:hover{
+    color: #ad9966;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link
+{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.nav-logo
+{
+     width: 20%;
+     display: inline-block;
+     vertical-align: middle
+}
+
+
+
+.nav-link:hover
+{
+    color: #ad9966;
+    
+}
+
+.nav-logo img
+{
+    width: 66.81px;
+    height: 79.38px;
+}
+
+#sec1 
+{
+    height: 78vh;
+    background-image: url(Imagens/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+#roof
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+#linha
+{
+    height: 0;  
+    width: 450px;
+}
+
+
+p
+{
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-family: "Playfair Display", serif ;
+    letter-spacing: 10.8;
+}
+
+.cardapio-container
+{
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.cardapio
+{
+    font-size: 15px;
+    color: black;
+    position: relative;
+    left: 50%;
+    top: -300px;
+    font-family:  "Playfair Display", serif;
+    font-weight: 100;
+    font-style: italic;
+    background-color: #faf5f0;
+    background-size: auto;
+    width: 635px;
+    height: 1175.5px;
+}
+
+
+
+.letras
+{
+   position: relative;
+   left: 21%;  
+   top: 253px;
+   margin-left: -100px;
+   margin-right: -100px;
+   
+}
+
+
+.letras > p
+{
+    font-size: 15px;
+    color: black;   
+}
+
+
+.espaço
+{
+    
+    font-size: 15px;
+    position: relative;
+    padding-bottom: 5%;
+    padding-top: -25px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+    color: #000;
+    text-align: center;
+    display: block;
+}
+.div>.espaço
+{
+    text-size-adjust: contain;
+}
+
+.aspas
+{
+    color: rgb(119, 119, 119);
+    line-height: 25.5px;
+}
+
+.Appetizer 
+{
+    padding-top: 30px;
+    font-size: 21px;
+    position: relative;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: #000;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.galeria>img
+{
+    transition: all 0.4s ease 0s;
+    top: 100px;
+
+}
+
+.imagens>.sushi
+{
+    position: absolute;
+    position: relative;
+    top: -360px;
+    left: 235px;
+    right: 800px;
+    line-height: 25.5px;
+    width: 450.012px;
+    height: 648.657px;
+    
+}
+
+.imagens:hover
+{
+    overflow: hidden;
+    filter: brightness(30%);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.sushi:hover
+{
+    height: 800px;
+    width: 600px;
+    justify-content: center;
+}
+
+.massa-img
+{
+    position: absolute;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 250px;
+    right: 350px; 
+    top: -60px;
+    line-height: 25.5px;
+    width: 450.012px;
+    height: 648.657px;
+    border: 0;
+    margin: 0;
+}
+
+.massa-img:hover
+{
+    height: 800px;
+    width: 600px;
+}
+
+
+.biscoito-img
+{
+    display: inline-block;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 250px;
+    right: 350px; 
+    top: -330px;
+    line-height: 25.5px;
+    width: 450.012px;
+    height: 648.657px;
+    border: 0;
+    margin: 0;   
+}
+.biscoito-img:hover
+{
+    height: 800px;
+    width: 600px;
+}
+
+.prato-img:hover
+{
+    position: absolute;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 250px;
+    right: 350px; 
+    top: -30px;
+    line-height: 25.5px;
+    width: 450.012px;
+    height: 648.657px;
+    border: 0;
+    margin: 0;
+}
+
+
+.full-menu
+{
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    right: 350px;
+    width: 197.04px;
+    height: 49.48px;
+    background-color: #ad9966;
+    color: white;
+}
+.full-menu:hover
+{
+    background-color: white;
+    border-color: #ad9966;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    border: solid;
+}
+
+.footer
+{
+    height: 530.01vh;
+    width: 937.05px;
+    align-items: center;
+    padding: 30px 20px;
+    background-color:#071032;
+    display: inline-block;
+}
+
+#sec3 form
+{
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    background-color: #faf5f0;
+    padding-top: 7%;
+    padding-right: 3%;
+    padding-left: 3%;
+} 
+
+#sec3 button
+{
+    color:#ffffff;
+    background-color: #000000;
+}
+
+#sec3 button:hover
+{
+    color: #ad9966;
+    background-color: #ffffff;
+    border-color: white;
+    transition: 0.4s;
+}
+
+.Book-a-Rooms
+{
+    display: inline-block;
+    color: #000000;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    position: relative;
+    top: -250px;
+    left: 800px;
+}
+
+.Book-a-Rooms>p
+{
+    font-size: 15px;
+    color: #777777;
+
+}
+
+.chefe
+{
+    position: relative;
+    margin-top: 50px;
+}
+
+
+.Chef’s-Quotes
+{
+    display: inline-block;
+    color: #000000;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    height: 370.01px;
+    width: 14398px;
+    position: relative;
+    top: -800px;
+    left: -650px;
+    right: 0px;
+}
+
+.Chef’s-Quotes>h1
+{
+    font-size: 35px;
+    color: #000000;
+    letter-spacing: normal;
+}
+
+.Chef’s-Quotes>p
+{
+    font-size: 15px;
+    color: #777777;
+}
+.sec4 .Rooftop-Fine-Dinning
+{
+    position: relative;
+    top: -500px;
+    left: 600px;
+    color: #000000;
+}
+
+.sec4 .Rooftop-Fine-Dinning> h1 .titulo-fine-Dinning
+{
+   left: 300px;
+    font-size: 35px;
+    color: #000000;
+    letter-spacing: normal;
+}
+
+.sec4 .cor-p
+{
+    font-size: 15px;
+    color: #777777;
+}
+
+.footer
+{
+    top: 100%;
+    background-color: #071032;
+    color: #777777;
+}
+
+.footer>li :hover
+{
+    color: #ad9966;
+}
+
+
+<div class="view-menu-fixo">
+    <a href="#" class="gira">view menu</a>
+</div>
+
+<div class="book-a-table-fixo">
+    <a href="#" class="gira_Book">book a table</a>
+</div>
+
+<section id="sec1">
+    <div id="roof">
+        <p>R O O F T O P</p>
+        <hr id="linha">
+        <span>A FINE DINNING RESTAURANT</span>
+    </div>
+</section>
+
+<section class="uma-do-lado-da-outra">
+    <div class="container">
+
+        <div class="letras">
+            <h1>
+                DAILY FOOD<br>
+                COURSES<br>
+                WITH DRINKS
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#" class="nav-link">SEE FULL MENU</a>
+        </div>
+
+        <div class="cardapio cardapio-container">
+            <p class="Appetizer">Appetizer</p>
+            <p class="espaço">Ham & Potato Sandwiches ........... $25.00</p>
+            <p class="espaço aspas">(French bread baguette, cooked ham, potato salad)</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="galeria">
+    <div class="container">
+
+        <div class="imagens">
+            <div class="sushi-img">
+                <img src="Imagens/sushi na mesa.png" alt="">
+            </div>
+            <div class="massa-img">
+                <img src="Imagens/massa.png" alt="">
+            </div>
+            <div class="biscoito-img">
+                <img src="Imagens/biscoito chique.png" alt="">
+            </div>
+            <div class="peixe-img">
+                <img src="Imagens/peixe chique.png" alt="">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="sec3">
+    <div class="container">
+
+        <form>
+        
+        <div class="inline-block">
+            <div id="altura">
+                <form action="">
+
+                    <div class="naoQuadradinhos">
+                        <input type="text" name="nomeEvento" placeholder="Event Name">
+                    </div>
+
+                    <div class="quadradinhos">
+                        <input type="date" name="dataEvento" placeholder="Event Date">
+                        <input type="time" name="horarioEvento" placeholder="Event Time" class="direita">
+                        <input type="number" name="numeroConvidados" placeholder="Number of guests">
+                        <input type="number" name="orcamento" placeholder="Budget" class="direita">
+                    </div>
+
+                    <div class="naoQuadradinhos">
+                        <input type="text" name="nomeContato" placeholder="Contact Name" class="inputMedio">
+                        <input type="email" name="email" placeholder="Email Adress" class="inputMedio">
+                        <input type="tel" name="telefone" placeholder="Phone Number" class="inputMedio">
+                        <textarea name="mensagem" placeholder="Post a message" class="txtArea"></textarea>
+                    </div>
+                    <button>SEND REQUEST</button>
+
+                </form>
+            </div>
+        </form>
+
+        <div class="Book-a-Rooms">
+            <h1>
+                Book a<br>
+                Table or<br>
+                Rooms for<br>
+                private<br>
+                dining
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <img src="Imagens/chefs-quotes.jpg" alt="" class="chefe">
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <p class="Copyright">
+            Copyright © 2018 All rights reserved | 
+            This template is made with ♥ by <span class="Colorlib">Colorlib</span>
+        </p>
+    </div>
+</footer>
+
+    <footer class="footer">
+            <div class="container">
+                <div>
+                    <ul>
+                        <h1 class="fonte-titulo">Top Products</h1>
+                    </ul>
+                    <ul>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Managed Website</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Manage Reputation</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Power Tools</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Marketing Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="fonte-titulo">Quick links</h1>
+                    <ul>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Jobs</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Brand Assets</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Investor Relations</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="fonte-titulo">Features</h1>
+                    <ul>
+                        <li class="fonte-texto"> <a class="fonte-texto" href="http://127.0.0.1:5501/">Jobs</a></li>
+                        <li class="fonte-texto"> <a class="fonte-texto" href="http://127.0.0.1:5501/">Brand Assets</a>
+                        </li>
+                        <li class="fonte-texto"> <a class="fonte-texto" href="http://127.0.0.1:5501/">Investor
+                                Relations</a></li>
+                        <li class="fonte-texto"> <a class="fonte-texto" href="http://127.0.0.1:5501/">Terms of
+                                Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="fonte-titulo">Resources</h1>
+                    <ul>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Guides</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Research</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Experts</a></li>
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Agencies</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="fonte-titulo">Newsletter</h1>
+                    <ul">
+                        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Stay update with our latest</a>
+                            <input type="email" name="email" placeholder="Email Adress" class="inputMedio">
+                        </li>
+                        </ul>
+            </div>
+                <div class="Copyright-container">
+                <p class="Copyright">
+                    Copyright © 2018 All rights reserved | This template is made with  by <p class="Colorlib">Colorlib</p>
+                </p>
+            </div>
+        </div>
+            </footer>
+        </div>
+
+         <section class="sec4">
+
+             <div class="Rooftop-Fine-Dinning">
+                    <div>
+                        <h1 class="titulo-fine-Dinning">
+                            Rooftop <br>
+                            Fine Dinning <br>
+                            Restaurant <br>
+                        </h1>
+
+                    </div>
+
+                    <div class="endereco-fine-Dinning">
+                        <p class=" espaço cor-p">432 Wyandotte Ave, Lakewood, OH, 44107 <br> </p>
+
+                        <p class=" espaço cor-p"> 432 Wyandotte Ave, Lakewood, OH, 44107,<br> </p>
+                    </div>
+
+                    <div class="telefone-fine-Dinning">
+                        <p class=" espaço cor-p"> 012 44 (216) 785-9346 <br> </p>
+
+                        <p class=" espaço cor-p"> 012 44 (216) 785-9346 <br> </p>
+
+                        <p class=" espaço cor-p"> 012 44 (216) 785-9346 <br> </p>
+                    </div>
+
+                    <div class="info-fine-Dinning">
+                        <p class=" espaço cor-p"> info@rooftoprestaurant.co.uk<br> </p>
+
+                        <p class=" espaço cor-p"> support@rooftoprestaurant.com <br> </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        Contact.html:
+        
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+<title>position</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header>
+        <ul class="menu">
+            <li class="nav"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav"><a href="menu.html" class="nav-link">menu</a></li>
+            <li class="nav"><a href="about.html" class="nav-link">about</a></li>
+            <li class="nav-logo"><a href="index.html" class="nav-link"><img src="Imagens/logo.position.png" alt=""></a></li>
+            <li class="nav drop"><a href="pages.html" class="nav-link">pages▾<p></p></a></li>
+            <li class="nav drop"><a href="blog.html" class="nav-link">Blog▾</a></li>
+            <li class="nav"><a href="gallery.html" class="nav-link">Gallery</a></li>
+        </ul>
+    </header>
+
+    <div class="view-menu-fixo"> 
+        <a href="http://127.0.0.1:5501/" class="gira">view menu</a>
+    </div>
+
+    <div class="book-a-table-fixo"> 
+        <a href="http://127.0.0.1:5501/" class="gira_Book">book a table</a>
+    </div>
+
+    <div class=""></div>
+
+    <section id="sec1">
+
+        <div id="roof">
+            <p>Contact us</p>
+            </p>
+            <br>
+            <hr id="linha">
+            <br class="br">
+            <p>
+            <a href="index.html" class="formatacao-home-menu">HOME</a>
+            <span class="seta-menu">→</span>
+            <a href="contact.html" class="formatacao-home-menu">CONTACT</a>
+            </p>
+        </div>
+
+    </section>
+
+
+    <div class="letras">
+        <h1>
+            Rooftop<br>
+            Fine Dinning <br>
+            Dinning <br>
+        </h1>
+        <p class="About-texto"></p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br>
+           sed do eiusmod tempor incididunt ut labore et dolore <br>
+           magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
+           exercitation ullamco laboris nisi ut aliquip ex ea commodo <br>
+           consequat.
+        </p>
+
+        <a href="full-menu"> SEE FULL MENU</a>
+    </div>
+
+    <section id="sec3">
+    <div class="container">
+
+        <form>
+            <div class="naoQuadradinhos">
+                <input type="text" placeholder="Event Name">
+            </div>
+
+            <div class="quadradinhos">
+                <input type="date">
+                <input type="time" class="direita">
+                <input type="number" placeholder="Number of guests">
+                <input type="number" placeholder="Budget" class="direita">
+            </div>
+
+            <div class="naoQuadradinhos">
+                <input type="text" placeholder="Contact Name">
+                <input type="email" placeholder="Email Address">
+                <input type="tel" placeholder="Phone Number">
+                <textarea placeholder="Post a message"></textarea>
+            </div>
+
+            <button>SEND MESSAGE</button>
+        </form>
+    </div>
+</section>
+
+    <section class="sec5">
+    <footer class="footer">
+        <div>
+       <ul>
+        <h1 class="fonte-titulo">Top Products</h1>
+       </ul>
+       <ul>
+        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Managed Website</a></li>
+        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Manage Reputation</a></li>
+        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Power Tools</a></li>
+        <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Marketing Service</a></li>
+       </ul>    
+        </div>
+        <div>
+            <h1 class="fonte-titulo">Quick links</h1>
+            <ul>
+                <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Jobs</a></li>
+                <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Brand Assets</a></li>
+                <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Investor Relations</a></li>
+                <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Terms of Service</a></li>
+            </ul>
+        </div>
+        <div>
+                <h1 class="fonte-titulo">Features</h1>
+            <ul>
+                <li class="fonte-texto"> <a class="fonte-texto" href="http://127.0.0.1:5501/">Jobs</a></li>
+                <li class="fonte-texto"> <a class="fonte-texto" href="http://127.0.0.1:5501/">Brand Assets</a></li>
+                <li class="fonte-texto"> <a class="fonte-texto" href="http://127.0.0.1:5501/">Investor Relations</a></li>
+                <li class="fonte-texto"> <a class="fonte-texto" href="http://127.0.0.1:5501/">Terms of Service</a></li>
+            </ul>
+        </div>
+        <div>
+            <h1 class="fonte-titulo">Resources</h1>
+            <ul>
+                <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Guides</a></li>
+                <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Research</a></li>
+                <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Experts</a></li>
+                <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Agencies</a></li>
+            </ul>
+        </div>
+        <div>
+                <h1 class="fonte-titulo">Newsletter</h1>
+            <ul">
+                <li><a class="fonte-texto" href="http://127.0.0.1:5501/">Stay update with our latest</a>
+                <input type="email" name="email" placeholder="Email Adress" class="inputMedio">
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+</div>
+    </section>
+
+</body>
+
+</html>
+</html>
+
+CONTACT.Css:
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body
+{
+    font-family: "Roboto", sans-serif;
+
+}
+
+.nav 
+{
+    display: inline-block;
+    width: 4.5%;
+}
+
+header 
+{
+    padding: 10px 0;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    background-color: white;
+}
+
+
+header>ul
+{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.drop
+{
+    position: relative;
+}
+.drop>ul
+{
+    position: absolute;
+    width: 150%;
+    height: 15vh;
+    padding-top: 5vh;
+    z-index: -10;
+    background-color: white;
+    opacity: 0;
+}
+
+.drop>ul>li
+{
+    height: 5vh;
+}
+
+.drop:hover>ul
+{
+    opacity: 1;
+    z-index: 9999;
+}
+.view-menu-fixo
+{
+    font-size: 13px;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    top: 40%;
+    height: 180px;
+    line-height: 180px;
+    width: 92px;
+    background-image: url(Imagens/view-menu-bg.png);
+    z-index: 9999;
+    text-transform: uppercase;
+    
+}
+
+
+.book-a-table-fixo 
+{
+    text-transform: uppercase;
+    font-size: 13px;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 0;
+    top: 40%;
+    height: 180px;
+    line-height: 180px;
+    width: 92px;
+    background-image: url(Imagens/book-table-bg.png);
+    z-index: 9999;
+}
+
+
+.book-a-table-fixo :hover 
+{
+    color: #000000;   
+}
+
+.book-a-table-fixo > a
+{
+    color: white;
+    transform: rotate(-90deg);
+    transition: 0.4s;
+}
+
+.gira_Book 
+{
+    display: inline-block;
+    transition: all 0.4s ease 0s;;
+    transform: rotate(90deg);
+}
+
+.book-a-table-fixo :hover 
+{
+    color: #000000;
+    transform: rotate(0deg);
+}
+
+.gira 
+{
+    display: inline-block;
+    transition: 0.4s;
+    transform: rotate(90deg);
+}
+
+
+.gira:hover 
+{
+    color: #ad9966;
+    transform: rotate(0deg);
+}
+
+
+a:hover{
+    color: #ad9966;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link
+{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.nav-logo
+{
+     width: 20%;
+     display: inline-block;
+     vertical-align: middle
+}
+
+
+
+.nav-link:hover
+{
+    color: #ad9966;
+    
+}
+
+.nav-logo img
+{
+    width: 66.81px;
+    height: 79.38px;
+}
+
+#sec1 
+{
+    height: 78vh;
+    background-image: url(Imagens/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+#roof
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+#linha
+{
+    height: 0;  
+    width: 450px;
+}
+
+
+
+#roof p {
+    color: white;
+    font-size: 72px;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 10.8px;
+}
+
+
+p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.cardapio-container
+{
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.letras>h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 40;
+}
+
+.letras > p
+{
+    font-size: 15px;
+    color: black;   
+}
+
+
+.espaço
+{
+    
+    font-size: 15px;
+    position: relative;
+    padding-bottom: 5%;
+    padding-top: -25px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+    color: #000;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.div>.espaço
+{
+    text-size-adjust: contain;
+}
+
+.aspas
+{
+    color: rgb(119, 119, 119);
+    line-height: 25.5px;
+}
+
+.Appetizer 
+{
+    padding-top: 30px;
+    font-size: 21px;
+    position: relative;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: #000;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* <___________________________________________________________________________________> */
+
+.galeria {
+    padding: 120px 0;
+}
+
+
+
+.imagens {
+    width: 700px;
+    height: 850px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.imagens > div {
+    position: absolute;
+    overflow: hidden;
+}
+
+.sushi-img {
+    width: 56%;
+    height: 48%;
+    top: 0;
+    left: 0;
+}
+
+.massa-img {
+    width: 38%;
+    height: 38%;
+    top: 0;
+    right: 0;
+}
+
+.biscoito-img {
+    width: 38%;
+    height: 28%;
+    bottom: 0;
+    left: 0;
+}
+
+.peixe-img {
+    width: 56%;
+    height: 28%;
+    bottom: 0;
+    right: 0;
+}
+
+.imagens img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* <-----------------------------------------------------------------------------------> */
+
+.full-menu
+{
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    right: 350px;
+    width: 197.04px;
+    height: 49.48px;
+    background-color: #ad9966;
+    color: white;
+}
+.full-menu:hover
+{
+    background-color: white;
+    border-color: #ad9966;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    border: solid;
+}
+
+
+#sec3 {
+    padding: 120px 0;
+}
+
+#sec3 .container {
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+}
+
+
+
+#sec3 button
+{
+    color:#ffffff;
+    background-color: #000000;
+}
+
+#sec3 button:hover
+{
+    color: #ad9966;
+    background-color: #ffffff;
+    border-color: white;
+    transition: 0.4s;
+}
+
+#sec3 form {
+    width: 50%;
+    background-color: #faf5f0;
+    padding: 50px;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.Book-a-Rooms {
+    width: 40%;
+}
+
+.Book-a-Rooms>p
+{
+    font-size: 15px;
+    color: #777777;
+
+}
+
+.chefe
+{
+    position: relative;
+    margin-top: 50px;
+    right: 190px;
+    top: 90px;
+}
+
+
+.Chef’s-Quotes
+{
+    display: inline-block;
+    color: #000000;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    height: 370.01px;
+    width: 143px;
+    position: relative;
+    top: -550px;
+    left: -600px;
+    right: 0px;
+}
+
+.Chef’s-Quotes>h1
+{
+    font-size: 35px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #000000;
+    letter-spacing: normal;
+    font-family: "Playfair Display", serif;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+.Chef’s-Quotes>p
+{
+    font-size: 15px;
+    color: #777777;
+}
+
+#sec4
+{
+    position: relative;
+    top: -400px;
+}
+.footer
+{
+    
+    width: 100%;
+    align-items: center;
+    padding: 30px 20px;
+    background-color:#071032;
+
+}
+
+.footer div
+{
+    
+    display: inline-block;
+}
+
+.footer>li :hover
+{
+    color: #ad9966;
+}
+
+.footer>h1
+{
+     color: #ffffff;
+}
+
+.fonte-titulo
+{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.fonte-texto
+{
+    color: #777777;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    transition: all 0.4s ease 0s;
+}
+
+.Colorlib
+{
+    color: #ad9966;
+    color: #777777;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.Copyright
+{
+    color: #777777;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.Copyright-container
+{
+    display: inline-block;
+}
+
+
+.uma-do-lado-da-outra {
+    padding: 120px 0;
+}
+
+.uma-do-lado-da-outra .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.letras {
+    width: 40%;
+}
+
+.cardapio {
+    width: 50%;
+    background-color: #faf5f0;
+    padding: 40px;
+}
+
+
+
+        <li class="nav-logo">
+            <a href="index.html" class="nav-link">
+                <img src="Imagens/logo.position.png" alt="">
+            </a>
+        </li>
+
+
+<section id="sec07">
+        <div id="ops">
+            <img src="https://maps.gstatic.com/mapfiles/api-3/images/icon_error.png" alt="">
+            <h1>Ops! Algo deu errado.</h1>
+            <p>Esta página não carregou o Google Maps corretamente. Consulte o console JavaScript para ver detalhes técnicos.</p>
+        </div>
+
+        <div id="textos_sec07">
+            <h1>Rooftop <br>
+                Fine Dinning <br>
+                Restaurant
+            </h1>
+
+            <p>432 Wyandotte Ave, Lakewood, OH, 44107</p>
+            <p class="espacamento">432 Wyandotte Ave, Lakewood, OH, 44107</p>
+            
+            <p>012 44 (216) 785-9346</p>
+            <p>012 44 (216) 785-9346</p>
+            <p class="espacamento">012 44 (216) 785-9346</p>
+            
+            <p>info@rooftoprestaurant.co.uk</p>
+            
+            <p>support@rooftoprestaurant.com</p>
+        </div>
+    </section>
+
+    .imagens img 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+}
